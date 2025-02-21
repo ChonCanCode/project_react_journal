@@ -1,0 +1,15 @@
+.body {
+    display: flex;
+    height: 100vh;
+    background-color: aquamarine;
+}
+
+.sidebar {
+    width: 25%;
+    background-color: rgb(109, 109, 214);
+}
+
+
+.content {
+    width: 75%;
+}
