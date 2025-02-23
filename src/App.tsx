@@ -1,33 +1,28 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import '/styles/styles.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+     <h1>Road to Master</h1>
+     <div className="body">
+     <div className="sidebar">
+      <h2>Projects</h2>
+      <ul>
+      <li>Coding</li>
+      <li>Warhammer</li>
+      <li>Gaming</li>
+     </ul>
+     </div>
+
+     <div className="content">
+      <h2>My Coding Journey</h2>
+      <div className="daily-log">
+      <p>
+        I've been coding for a yeara now. I started with HTML and CSS, then moved on to JavaScript. I am also starting to learn React and using it to build website. Like this one.
       </p>
+      </div>
+     </div>
+     </div>
     </>
   )
 }
